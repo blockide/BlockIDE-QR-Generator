@@ -31,7 +31,7 @@ class ViewController: UIViewController {
             filter?.setValue(data, forKey: "inputMessage")
 
             let transform = CGAffineTransform(scaleX: 10, y: 10)
-            let qrCodeImage = UIImage(ciImage: (filter?.outputImage!.applying(transform))!)
+            let qrCodeImage = UIImage(ciImage: (filter?.outputImage!.transformed(by: transform))!)
             myImageView.image = qrCodeImage
         }
     }
