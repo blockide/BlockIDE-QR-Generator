@@ -2,9 +2,7 @@
 //  AppDelegate.swift
 //  QRGenerate
 //
-//  Created by Vinayak Tiwari on 06/09/17.
-//  Copyright © 2017 RuVi.apps. All rights reserved.
-//
+//  Created by Casey Gardiner
 
 import UIKit
 

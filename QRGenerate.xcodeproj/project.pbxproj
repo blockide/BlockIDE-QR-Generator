@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		792906A91F6012EC002FF77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792906A81F6012EC002FF77F /* AppDelegate.swift */; };
-		792906AB1F6012EC002FF77F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792906AA1F6012EC002FF77F /* ViewController.swift */; };
-		792906AE1F6012EC002FF77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792906AC1F6012EC002FF77F /* Main.storyboard */; };
-		792906B01F6012EC002FF77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792906AF1F6012EC002FF77F /* Assets.xcassets */; };
-		792906B31F6012EC002FF77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792906B11F6012EC002FF77F /* LaunchScreen.storyboard */; };
+		DE82C7331F0CFB8200363AA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82C7321F0CFB8200363AA8 /* AppDelegate.swift */; };
+		DE82C7351F0CFB8200363AA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82C7341F0CFB8200363AA8 /* ViewController.swift */; };
+		DE82C7381F0CFB8200363AA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE82C7361F0CFB8200363AA8 /* Main.storyboard */; };
+		DE82C73A1F0CFB8200363AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE82C7391F0CFB8200363AA8 /* Assets.xcassets */; };
+		DE82C73D1F0CFB8200363AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE82C73B1F0CFB8200363AA8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		792906A51F6012EC002FF77F /* QRGenerate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRGenerate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		792906A81F6012EC002FF77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		792906AA1F6012EC002FF77F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		792906AD1F6012EC002FF77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		792906AF1F6012EC002FF77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		792906B21F6012EC002FF77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		792906B41F6012EC002FF77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE82C72F1F0CFB8200363AA8 /* QRGenerate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRGenerate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE82C7321F0CFB8200363AA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE82C7341F0CFB8200363AA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE82C7371F0CFB8200363AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE82C7391F0CFB8200363AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE82C73C1F0CFB8200363AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE82C73E1F0CFB8200363AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		792906A21F6012EC002FF77F /* Frameworks */ = {
+		DE82C72C1F0CFB8200363AA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,31 +35,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7929069C1F6012EC002FF77F = {
+		81BD64F0204C4DBB007F8A3B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				792906A71F6012EC002FF77F /* QRGenerate */,
-				792906A61F6012EC002FF77F /* Products */,
+				81BD64F2204C4DD2007F8A3B /* Controller */,
+				81BD64F1204C4DCA007F8A3B /* Applicaton */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		81BD64F1204C4DCA007F8A3B /* Applicaton */ = {
+			isa = PBXGroup;
+			children = (
+				DE82C7321F0CFB8200363AA8 /* AppDelegate.swift */,
+			);
+			path = Applicaton;
+			sourceTree = "<group>";
+		};
+		81BD64F2204C4DD2007F8A3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE82C7341F0CFB8200363AA8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE82C7261F0CFB8200363AA8 = {
+			isa = PBXGroup;
+			children = (
+				DE82C7311F0CFB8200363AA8 /* QRGenerate */,
+				DE82C7301F0CFB8200363AA8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		792906A61F6012EC002FF77F /* Products */ = {
+		DE82C7301F0CFB8200363AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				792906A51F6012EC002FF77F /* QRGenerate.app */,
+				DE82C72F1F0CFB8200363AA8 /* QRGenerate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		792906A71F6012EC002FF77F /* QRGenerate */ = {
+		DE82C7311F0CFB8200363AA8 /* QRGenerate */ = {
 			isa = PBXGroup;
 			children = (
-				792906A81F6012EC002FF77F /* AppDelegate.swift */,
-				792906AA1F6012EC002FF77F /* ViewController.swift */,
-				792906AC1F6012EC002FF77F /* Main.storyboard */,
-				792906AF1F6012EC002FF77F /* Assets.xcassets */,
-				792906B11F6012EC002FF77F /* LaunchScreen.storyboard */,
-				792906B41F6012EC002FF77F /* Info.plist */,
+				81BD64F0204C4DBB007F8A3B /* Classes */,
+				DE82C7361F0CFB8200363AA8 /* Main.storyboard */,
+				DE82C7391F0CFB8200363AA8 /* Assets.xcassets */,
+				DE82C73B1F0CFB8200363AA8 /* LaunchScreen.storyboard */,
+				DE82C73E1F0CFB8200363AA8 /* Info.plist */,
 			);
 			path = QRGenerate;
 			sourceTree = "<group>";
@@ -67,13 +91,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		792906A41F6012EC002FF77F /* QRGenerate */ = {
+		DE82C72E1F0CFB8200363AA8 /* QRGenerate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 792906B71F6012ED002FF77F /* Build configuration list for PBXNativeTarget "QRGenerate" */;
+			buildConfigurationList = DE82C7411F0CFB8200363AA8 /* Build configuration list for PBXNativeTarget "QRGenerate" */;
 			buildPhases = (
-				792906A11F6012EC002FF77F /* Sources */,
-				792906A21F6012EC002FF77F /* Frameworks */,
-				792906A31F6012EC002FF77F /* Resources */,
+				DE82C72B1F0CFB8200363AA8 /* Sources */,
+				DE82C72C1F0CFB8200363AA8 /* Frameworks */,
+				DE82C72D1F0CFB8200363AA8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,26 +105,27 @@
 			);
 			name = QRGenerate;
 			productName = QRGenerate;
-			productReference = 792906A51F6012EC002FF77F /* QRGenerate.app */;
+			productReference = DE82C72F1F0CFB8200363AA8 /* QRGenerate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7929069D1F6012EC002FF77F /* Project object */ = {
+		DE82C7271F0CFB8200363AA8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = RuVi.apps;
+				ORGANIZATIONNAME = MAGNUMIUM;
 				TargetAttributes = {
-					792906A41F6012EC002FF77F = {
+					DE82C72E1F0CFB8200363AA8 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = K4338W8BPU;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 792906A01F6012EC002FF77F /* Build configuration list for PBXProject "QRGenerate" */;
+			buildConfigurationList = DE82C72A1F0CFB8200363AA8 /* Build configuration list for PBXProject "QRGenerate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +133,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 7929069C1F6012EC002FF77F;
-			productRefGroup = 792906A61F6012EC002FF77F /* Products */;
+			mainGroup = DE82C7261F0CFB8200363AA8;
+			productRefGroup = DE82C7301F0CFB8200363AA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				792906A41F6012EC002FF77F /* QRGenerate */,
+				DE82C72E1F0CFB8200363AA8 /* QRGenerate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		792906A31F6012EC002FF77F /* Resources */ = {
+		DE82C72D1F0CFB8200363AA8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792906B31F6012EC002FF77F /* LaunchScreen.storyboard in Resources */,
-				792906B01F6012EC002FF77F /* Assets.xcassets in Resources */,
-				792906AE1F6012EC002FF77F /* Main.storyboard in Resources */,
+				DE82C73D1F0CFB8200363AA8 /* LaunchScreen.storyboard in Resources */,
+				DE82C73A1F0CFB8200363AA8 /* Assets.xcassets in Resources */,
+				DE82C7381F0CFB8200363AA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		792906A11F6012EC002FF77F /* Sources */ = {
+		DE82C72B1F0CFB8200363AA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792906AB1F6012EC002FF77F /* ViewController.swift in Sources */,
-				792906A91F6012EC002FF77F /* AppDelegate.swift in Sources */,
+				DE82C7351F0CFB8200363AA8 /* ViewController.swift in Sources */,
+				DE82C7331F0CFB8200363AA8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		792906AC1F6012EC002FF77F /* Main.storyboard */ = {
+		DE82C7361F0CFB8200363AA8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				792906AD1F6012EC002FF77F /* Base */,
+				DE82C7371F0CFB8200363AA8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		792906B11F6012EC002FF77F /* LaunchScreen.storyboard */ = {
+		DE82C73B1F0CFB8200363AA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				792906B21F6012EC002FF77F /* Base */,
+				DE82C73C1F0CFB8200363AA8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +188,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		792906B51F6012ED002FF77F /* Debug */ = {
+		DE82C73F1F0CFB8200363AA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -210,11 +235,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		792906B61F6012ED002FF77F /* Release */ = {
+		DE82C7401F0CFB8200363AA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,30 +277,31 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		792906B81F6012ED002FF77F /* Debug */ = {
+		DE82C7421F0CFB8200363AA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K4338W8BPU;
 				INFOPLIST_FILE = QRGenerate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ruvi.apps.com.QRGenerate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnumium.QRGenerate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		792906B91F6012ED002FF77F /* Release */ = {
+		DE82C7431F0CFB8200363AA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K4338W8BPU;
 				INFOPLIST_FILE = QRGenerate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ruvi.apps.com.QRGenerate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magnumium.QRGenerate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,24 +310,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		792906A01F6012EC002FF77F /* Build configuration list for PBXProject "QRGenerate" */ = {
+		DE82C72A1F0CFB8200363AA8 /* Build configuration list for PBXProject "QRGenerate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				792906B51F6012ED002FF77F /* Debug */,
-				792906B61F6012ED002FF77F /* Release */,
+				DE82C73F1F0CFB8200363AA8 /* Debug */,
+				DE82C7401F0CFB8200363AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		792906B71F6012ED002FF77F /* Build configuration list for PBXNativeTarget "QRGenerate" */ = {
+		DE82C7411F0CFB8200363AA8 /* Build configuration list for PBXNativeTarget "QRGenerate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				792906B81F6012ED002FF77F /* Debug */,
-				792906B91F6012ED002FF77F /* Release */,
+				DE82C7421F0CFB8200363AA8 /* Debug */,
+				DE82C7431F0CFB8200363AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7929069D1F6012EC002FF77F /* Project object */;
+	rootObject = DE82C7271F0CFB8200363AA8 /* Project object */;
 }
